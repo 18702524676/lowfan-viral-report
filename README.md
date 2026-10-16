@@ -1,11 +1,7 @@
-# 低粉爆款蓝海分析报告
+# 低粉爆款蓝海机会研究
 
-采集与分析日期：2026-10-16（Asia/Shanghai）
+GitHub Pages: https://18702524676.github.io/lowfan-viral-report/
 
-## 在线预览
-
-打开：[HTML 报告预览](https://htmlpreview.github.io/?https://github.com/18702524676/lowfan-viral-report/blob/main/index.html)
-
-或直接查看源文件：
-- [index.html](./index.html)
-- [report.md](./report.md)
+- [今日轮 2026-10-16](./2026-10-16.html)
+- [往期第2轮 r2](./r2.html)
+- 数据：`data/*.csv`（不含大体积 raw json）

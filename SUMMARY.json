@@ -1,0 +1,767 @@
+{
+  "date": "2026-10-16",
+  "timezone": "Asia/Shanghai",
+  "platforms": [
+    "youtube",
+    "bilibili",
+    "x",
+    "douyin",
+    "xiaohongshu",
+    "tiktok",
+    "instagram"
+  ],
+  "blue_ocean_niches": [
+    {
+      "name": "pet dog training / 训犬",
+      "platform": "youtube",
+      "evidence": "ch100k=14, med_views=1421911, out100k=16; series K9 Training Academy etc.",
+      "strength": "B",
+      "n_channels": 14,
+      "median_views": 1421911,
+      "status_vs_prev": "still_blue"
+    },
+    {
+      "name": "language learning (esp. Japanese/Spanish micro-lessons)",
+      "platform": "youtube",
+      "evidence": "ch100k=11 med=244536; probe learn japanese ch100k=6 med=238559; learn chinese weak med=42813 ch100k=1",
+      "strength": "B",
+      "n_channels": 11,
+      "median_views": 244536,
+      "status_vs_prev": "still_blue"
+    },
+    {
+      "name": "bike maintenance",
+      "platform": "youtube",
+      "evidence": "NEW probe seed ch100k=10 med=258306; probe bike fix ch100k=6",
+      "strength": "B-",
+      "n_channels": 10,
+      "median_views": 258306,
+      "status_vs_prev": "new"
+    },
+    {
+      "name": "手工 / craft DIY",
+      "platform": "youtube",
+      "evidence": "ch100k=8 med=234085",
+      "strength": "B",
+      "n_channels": 8,
+      "median_views": 234085,
+      "status_vs_prev": "still_blue"
+    },
+    {
+      "name": "AI tools (EN)",
+      "platform": "youtube",
+      "evidence": "ch100k=7 med=178774 (prev round 10; still >=5); CN AI工具 out100k=0",
+      "strength": "B-",
+      "n_channels": 7,
+      "median_views": 178774,
+      "status_vs_prev": "still_blue_cooling"
+    },
+    {
+      "name": "origami craft / paper DIY",
+      "platform": "youtube",
+      "evidence": "seed ch100k=5 med=928337; probe origami tutorial ch100k=10 med=242743",
+      "strength": "B-",
+      "n_channels": 5,
+      "median_views": 928337,
+      "status_vs_prev": "new",
+      "probe_n_channels": 10
+    },
+    {
+      "name": "car repair",
+      "platform": "youtube",
+      "evidence": "ch100k=6 med=1067811; high resource barrier",
+      "strength": "B",
+      "n_channels": 6,
+      "median_views": 1067811,
+      "status_vs_prev": "still_blue"
+    },
+    {
+      "name": "chess rule-sim series",
+      "platform": "youtube",
+      "evidence": "ch100k=5 med=1784715; ChessRush series",
+      "strength": "B-",
+      "n_channels": 5,
+      "median_views": 1784715,
+      "status_vs_prev": "still_blue_edge"
+    }
+  ],
+  "red_ocean": [
+    {
+      "name": "cooking recipe / minecraft / 美食教程",
+      "note": "prev round 0/50 low outliers; not retested this round by design",
+      "status": "assumed_still_red"
+    },
+    {
+      "name": "CN 副业/理财/考研/AI工具/汽修 (YouTube CN seeds)",
+      "note": "high ratio but med_views tiny or out100k≈0 — ratio trap not blue",
+      "status": "false_blue"
+    },
+    {
+      "name": "stoicism quotes / first aid tips",
+      "note": "high outlier count but med_views <<100k or ch100k<5",
+      "status": "false_blue"
+    }
+  ],
+  "experiments": [
+    {
+      "id": "P1",
+      "title": "YT Shorts one-phrase language",
+      "priority": 1,
+      "strength": "B"
+    },
+    {
+      "id": "P1b",
+      "title": "YT Shorts bike 15s maintenance",
+      "priority": 1,
+      "strength": "B-"
+    },
+    {
+      "id": "P2",
+      "title": "AI scene×list×steps cross-platform",
+      "priority": 2,
+      "strength": "B-"
+    },
+    {
+      "id": "P3",
+      "title": "dog training Shorts if has dog",
+      "priority": 2,
+      "strength": "B"
+    },
+    {
+      "id": "P5",
+      "title": "rule-sim / AI duel series",
+      "priority": 3,
+      "strength": "C+"
+    },
+    {
+      "id": "P6",
+      "title": "origami/paper DIY Shorts",
+      "priority": 2,
+      "strength": "B-"
+    },
+    {
+      "id": "P4",
+      "title": "home-buying / life checklist on Douyin",
+      "priority": 3,
+      "strength": "C+"
+    }
+  ],
+  "data_files": [
+    "data/youtube.csv",
+    "data/youtube_raw.json",
+    "data/youtube_probe.csv",
+    "data/youtube_probe_raw.json",
+    "data/bilibili.csv",
+    "data/bilibili_raw.json",
+    "data/x.csv",
+    "out_yt_query.csv",
+    "out_yt_enriched.csv",
+    "out_bili30.csv",
+    "stats.md",
+    "framework.md",
+    "report.md",
+    "data/douyin.csv",
+    "data/xiaohongshu.csv",
+    "data/tiktok.csv",
+    "data/instagram.csv"
+  ],
+  "key_stats": {
+    "youtube": {
+      "n": 2181,
+      "queries": 45,
+      "lowfan": 508,
+      "outlier": 328,
+      "effective_outlier": 187,
+      "effective_channels": 149,
+      "lift_le60s": 1.44,
+      "lift_le60s_ci": [
+        1.33,
+        1.55
+      ],
+      "collected_asia_shanghai": "2026-10-16 23:51"
+    },
+    "bilibili": {
+      "n_all": 1541,
+      "n_30d": 500,
+      "lowfan": 22,
+      "outlier": 19,
+      "lift_le3min": 2.26,
+      "collected_asia_shanghai": "2026-10-16 23:51~2026-10-17 00:06"
+    },
+    "x": {
+      "n": 138,
+      "lowfan": 126,
+      "outlier_ratio10": 11,
+      "effective_impr_ge_10k": 1,
+      "impressions_median": 96,
+      "collected_asia_shanghai": "2026-10-16 23:51",
+      "note": "parent-written CSV; relevancy search limitation"
+    }
+  },
+  "past_preview_url": "未查到公开预览 URL；上轮本地 /workspace/r2/report.html",
+  "spot_checks": [
+    {
+      "figure": "YT effective outliers",
+      "value": 187,
+      "channels": 149,
+      "ok": true
+    },
+    {
+      "figure": "pet dog training ch100k",
+      "value": 14,
+      "median_views": 1421911,
+      "ok": true
+    },
+    {
+      "figure": "YT <=60s lift",
+      "value": 1.44,
+      "ok": true
+    }
+  ],
+  "notes": [
+    "X evidence strength D; do not use as cold-start primary.",
+    "No HTML / no GitHub push by this executor (Hermes).",
+    "Compared to /workspace/r2: core blues persist; bike+origami new; AI tools 10→7 still pass threshold.",
+    "Douyin CSV filled 2026-10-17: n=26 qualified=8 (≈4 in Sep/Oct 2026); qualitative only (strength C).",
+    "Douyin aligns directionally with YT blues: origami, bike care, car repair, AI tools, home-buying pitfalls; dog training / Japanese samples were all large accounts.",
+    "Xiaohongshu CSV 2026-10-17: n=27 qualified=16 (≈2 in ~30d); qualitative strength C; 万-rounded eng metrics.",
+    "XHS aligns directionally with YT blues: AI tools, dog-training steps, origami, bike care, skincare, craft, Japanese cards, home-buying; side-hustle high eng does NOT overturn YT CN ratio-trap.",
+    "TikTok CSV: n=32 qualified=23 (≈15 in ~30d); strength C; bike/diy/AI/dog/apartment/interview align with YT blues.",
+    "TikTok side hustle high views do NOT overturn YT CN 副业 ratio-trap; origami unqualified but diy craft substitutes.",
+    "Instagram CSV: n=36 qualified=3; followers median≈160000; ≥10k=86%; strength D/C counter-evidence; GraphQL hashtag fail → keyword search.",
+    "Final platforms: youtube, bilibili, x, douyin, xiaohongshu, tiktok, instagram. No HTML/push by this executor — see HERMES_HANDOFF.md."
+  ],
+  "browser_cases": {
+    "douyin": {
+      "n": 26,
+      "qualified": 8,
+      "qualified_approx_in_30d": 4,
+      "collected_asia_shanghai": "2026-10-17 00:10–00:18",
+      "keywords": {
+        "AI工具": {
+          "n": 2,
+          "qualified": 1
+        },
+        "家常菜": {
+          "n": 5,
+          "qualified": 2
+        },
+        "折纸": {
+          "n": 2,
+          "qualified": 1
+        },
+        "日语入门": {
+          "n": 3,
+          "qualified": 0
+        },
+        "汽修": {
+          "n": 3,
+          "qualified": 1
+        },
+        "看房避坑": {
+          "n": 4,
+          "qualified": 2
+        },
+        "自行车保养": {
+          "n": 4,
+          "qualified": 1
+        },
+        "训犬": {
+          "n": 2,
+          "qualified": 0
+        },
+        "面试经验": {
+          "n": 1,
+          "qualified": 0
+        }
+      },
+      "highlights": [
+        {
+          "niche": "折纸",
+          "aligns_yt": "origami/P6",
+          "author": "锦程科学实验站",
+          "followers": 2460,
+          "likes": 5814,
+          "favorites": 7958,
+          "note": "fav/like=1.37; published 2026-03 (outside 30d window)"
+        },
+        {
+          "niche": "自行车保养",
+          "aligns_yt": "bike maintenance/P1b",
+          "author": "御驰单车",
+          "followers": 8641,
+          "likes": 1025,
+          "favorites": 586,
+          "note": "published 2026-05 (outside 30d)"
+        },
+        {
+          "niche": "汽修",
+          "aligns_yt": "car repair",
+          "author": "重庆渝车惠汽修",
+          "followers": 2957,
+          "likes": 1118,
+          "favorites": 3045,
+          "note": "fav/like=2.72; within ~30d"
+        },
+        {
+          "niche": "AI工具",
+          "aligns_yt": "AI tools/P2",
+          "author": "Ai 工具评测",
+          "followers": 3003,
+          "likes": 1461,
+          "favorites": 1688,
+          "note": "scene-specific list; published 2026-05"
+        },
+        {
+          "niche": "看房避坑",
+          "aligns_yt": "P4 life checklist",
+          "author": "婷婷在威海",
+          "followers": 754,
+          "likes": 3876,
+          "favorites": 5060,
+          "note": "within 30d; high share 4960"
+        },
+        {
+          "niche": "训犬",
+          "aligns_yt": "pet dog training",
+          "qualified": 0,
+          "note": "2 rows both >>10k followers"
+        },
+        {
+          "niche": "日语入门",
+          "aligns_yt": "language learning",
+          "qualified": 0,
+          "note": "3 rows all >=10k followers"
+        }
+      ],
+      "strength": "C",
+      "caveat": "Manual search sample; no view counts; do not compare absolute likes to YT views"
+    },
+    "xiaohongshu": {
+      "n": 27,
+      "qualified": 16,
+      "qualified_approx_in_30d": 2,
+      "collected_asia_shanghai": "2026-10-17 00:24–00:35",
+      "keywords": {
+        "AI工具": {
+          "n": 4,
+          "qualified": 3
+        },
+        "护肤步骤": {
+          "n": 4,
+          "qualified": 2
+        },
+        "训犬": {
+          "n": 3,
+          "qualified": 2
+        },
+        "副业": {
+          "n": 2,
+          "qualified": 2
+        },
+        "看房避坑": {
+          "n": 2,
+          "qualified": 2
+        },
+        "日语入门": {
+          "n": 4,
+          "qualified": 1
+        },
+        "手工": {
+          "n": 2,
+          "qualified": 1
+        },
+        "折纸": {
+          "n": 2,
+          "qualified": 1
+        },
+        "自行车保养": {
+          "n": 2,
+          "qualified": 1
+        },
+        "面试经验": {
+          "n": 2,
+          "qualified": 1
+        }
+      },
+      "highlights": [
+        {
+          "niche": "AI工具",
+          "aligns_yt": "AI工具 P2",
+          "author": "Alpha AI",
+          "followers": 9915,
+          "likes_approx": 8547,
+          "favorites_approx": 11000,
+          "fav_like": 1.29,
+          "published_approx": "08-12",
+          "in_approx_30d": false,
+          "note": "likes/favorites may be rounded from 万 display"
+        },
+        {
+          "niche": "训犬",
+          "aligns_yt": "训犬 P3",
+          "author": "阿拉灵不灵（尴尬期中）",
+          "followers": 900,
+          "likes_approx": 2059,
+          "favorites_approx": 1532,
+          "fav_like": 0.74,
+          "published_approx": "07-15",
+          "in_approx_30d": false,
+          "note": "likes/favorites may be rounded from 万 display"
+        },
+        {
+          "niche": "折纸",
+          "aligns_yt": "折纸 P6",
+          "author": "纸小晴",
+          "followers": 4422,
+          "likes_approx": 25000,
+          "favorites_approx": 18000,
+          "fav_like": 0.72,
+          "published_approx": "07-05",
+          "in_approx_30d": false,
+          "note": "likes/favorites may be rounded from 万 display"
+        },
+        {
+          "niche": "自行车保养",
+          "aligns_yt": "自行车 P1b",
+          "author": "公路车图鉴",
+          "followers": 6067,
+          "likes_approx": 1799,
+          "favorites_approx": 2181,
+          "fav_like": 1.21,
+          "published_approx": "编辑于 05-25",
+          "in_approx_30d": false,
+          "note": "likes/favorites may be rounded from 万 display"
+        },
+        {
+          "niche": "护肤步骤",
+          "aligns_yt": "护肤/skincare",
+          "author": "是潘潘呐",
+          "followers": 255,
+          "likes_approx": 1329,
+          "favorites_approx": 1090,
+          "fav_like": 0.82,
+          "published_approx": "06-26",
+          "in_approx_30d": false,
+          "note": "likes/favorites may be rounded from 万 display"
+        },
+        {
+          "niche": "手工",
+          "aligns_yt": "手工",
+          "author": "嘻嘻哈哈",
+          "followers": 8320,
+          "likes_approx": 1164,
+          "favorites_approx": 1043,
+          "fav_like": 0.9,
+          "published_approx": "05-25",
+          "in_approx_30d": false,
+          "note": "likes/favorites may be rounded from 万 display"
+        },
+        {
+          "niche": "日语入门",
+          "aligns_yt": "日语/外语 P1",
+          "author": "Momo",
+          "followers": 98,
+          "likes_approx": 1095,
+          "favorites_approx": 1141,
+          "fav_like": 1.04,
+          "published_approx": "05-05",
+          "in_approx_30d": false,
+          "note": "likes/favorites may be rounded from 万 display"
+        },
+        {
+          "niche": "看房避坑",
+          "aligns_yt": "看房 P4",
+          "author": "避雷姐成长计划",
+          "followers": 468,
+          "likes_approx": 18000,
+          "favorites_approx": 26000,
+          "fav_like": 1.44,
+          "published_approx": "编辑于 03-18",
+          "in_approx_30d": false,
+          "note": "likes/favorites may be rounded from 万 display"
+        },
+        {
+          "niche": "副业",
+          "aligns_yt": "副业(比值陷阱对照)",
+          "author": "法野.AI",
+          "followers": 2866,
+          "likes_approx": 18000,
+          "favorites_approx": 22000,
+          "fav_like": 1.22,
+          "published_approx": "10-06 福建",
+          "in_approx_30d": true,
+          "note": "likes/favorites may be rounded from 万 display"
+        },
+        {
+          "niche": "面试经验",
+          "aligns_yt": "面试/清单 P4",
+          "author": "么凹猫",
+          "followers": 1472,
+          "likes_approx": 2076,
+          "favorites_approx": 2163,
+          "fav_like": 1.04,
+          "published_approx": "08-04",
+          "in_approx_30d": false,
+          "note": "likes/favorites may be rounded from 万 display"
+        }
+      ],
+      "strength": "C",
+      "caveat": "Manual search; likes/favorites partly estimated from 万 UI; followers exact; no read counts; do not compare abs likes to YT views or Douyin likes"
+    },
+    "tiktok": {
+      "n": 32,
+      "qualified": 23,
+      "qualified_approx_in_30d": 15,
+      "collected_asia_shanghai": "2026-10-17 00:46–01:37",
+      "keywords": {
+        "side hustle": {
+          "n": 5,
+          "qualified": 5
+        },
+        "interview tips": {
+          "n": 4,
+          "qualified": 4
+        },
+        "AI tools": {
+          "n": 5,
+          "qualified": 3
+        },
+        "apartment hunting": {
+          "n": 3,
+          "qualified": 3
+        },
+        "diy craft": {
+          "n": 3,
+          "qualified": 3
+        },
+        "bike maintenance": {
+          "n": 2,
+          "qualified": 2
+        },
+        "dog training": {
+          "n": 3,
+          "qualified": 1
+        },
+        "skincare": {
+          "n": 3,
+          "qualified": 1
+        },
+        "japanese lesson": {
+          "n": 2,
+          "qualified": 1
+        },
+        "origami": {
+          "n": 2,
+          "qualified": 0
+        }
+      },
+      "highlights": [
+        {
+          "niche": "bike maintenance",
+          "aligns_yt": "自行车 P1b",
+          "author": "ddzxclzevbg",
+          "followers": 951,
+          "views": 768500,
+          "likes": 4401,
+          "saves": 905,
+          "save_rate": 0.0012,
+          "published_approx": "2026-10-08",
+          "in_approx_30d": true,
+          "url": "https://www.tiktok.com/@ddzxclzevbg/video/7694119296183602446"
+        },
+        {
+          "niche": "diy craft",
+          "aligns_yt": "手工/折纸 P6",
+          "author": "tahminascraft_35",
+          "followers": 7369,
+          "views": 1900000,
+          "likes": 60600,
+          "saves": 23920,
+          "save_rate": 0.0126,
+          "published_approx": "2026-10-09",
+          "in_approx_30d": true,
+          "url": "https://www.tiktok.com/@tahminascraft_35/video/7694695519758650656"
+        },
+        {
+          "niche": "AI tools",
+          "aligns_yt": "AI工具 P2",
+          "author": "matt.elior",
+          "followers": 4865,
+          "views": 477400,
+          "likes": 27900,
+          "saves": 18176,
+          "save_rate": 0.0381,
+          "published_approx": "2026-10-12",
+          "in_approx_30d": true,
+          "url": "https://www.tiktok.com/@matt.elior/video/7695584552596622599"
+        },
+        {
+          "niche": "dog training",
+          "aligns_yt": "训犬 P3",
+          "author": "pomtoro",
+          "followers": 7501,
+          "views": 45000,
+          "likes": 4762,
+          "saves": 836,
+          "save_rate": 0.0186,
+          "published_approx": "2026-09-23",
+          "in_approx_30d": true,
+          "url": "https://www.tiktok.com/@pomtoro/video/7688853532287585566"
+        },
+        {
+          "niche": "side hustle",
+          "aligns_yt": "副业(对照)",
+          "author": "gigissidehustle",
+          "followers": 3610,
+          "views": 1300000,
+          "likes": 49600,
+          "saves": 53889,
+          "save_rate": 0.0415,
+          "published_approx": "2026-10-10",
+          "in_approx_30d": true,
+          "url": "https://www.tiktok.com/@gigissidehustle/video/7694901672782384397"
+        },
+        {
+          "niche": "apartment hunting",
+          "aligns_yt": "租房/看房 P4",
+          "author": "home.nest.living",
+          "followers": 470,
+          "views": 68600,
+          "likes": 2228,
+          "saves": 618,
+          "save_rate": 0.009,
+          "published_approx": "2026-10-11",
+          "in_approx_30d": true,
+          "url": "https://www.tiktok.com/@home.nest.living/video/7695467540063030558"
+        },
+        {
+          "niche": "interview tips",
+          "aligns_yt": "面试清单 P4",
+          "author": "softlifecfo",
+          "followers": 4565,
+          "views": 291900,
+          "likes": 41400,
+          "saves": 23763,
+          "save_rate": 0.0814,
+          "published_approx": "2026-10-01",
+          "in_approx_30d": true,
+          "url": "https://www.tiktok.com/@softlifecfo/video/7691484528925232414"
+        },
+        {
+          "niche": "japanese lesson",
+          "aligns_yt": "日语 P1",
+          "author": "k_lyn.__",
+          "followers": 9448,
+          "views": 44500,
+          "likes": 5102,
+          "saves": 2532,
+          "save_rate": 0.0569,
+          "published_approx": "2026-06-08",
+          "in_approx_30d": false,
+          "url": "https://www.tiktok.com/@k_lyn.__/video/7648792941808422162"
+        },
+        {
+          "niche": "skincare",
+          "aligns_yt": "护肤",
+          "author": "blemishdermlab",
+          "followers": 868,
+          "views": 411800,
+          "likes": 1089,
+          "saves": 181,
+          "save_rate": 0.0004,
+          "published_approx": "2026-09-11",
+          "in_approx_30d": false,
+          "url": "https://www.tiktok.com/@blemishdermlab/video/7684088913643752717"
+        }
+      ],
+      "save_rate_median_qualified": 0.037,
+      "strength": "C",
+      "caveat": "Manual search; has views but do not compare absolute plays to YouTube; origami had 0 qualified in this sample"
+    },
+    "instagram": {
+      "n": 36,
+      "qualified": 3,
+      "qualified_approx_in_30d": 2,
+      "followers_median": 160000,
+      "pct_ge_10k_followers": 0.861,
+      "collected_asia_shanghai": "2026-10-17 01:46–01:54",
+      "method_note": "Hashtag popular GraphQL failed; fell back to keyword search; sample dominated by large accounts",
+      "keywords": {
+        "#dogtraining": {
+          "n": 4,
+          "qualified": 1
+        },
+        "#sidehustle": {
+          "n": 4,
+          "qualified": 1
+        },
+        "#skincare": {
+          "n": 4,
+          "qualified": 1
+        },
+        "#bikemaintenance": {
+          "n": 4,
+          "qualified": 0
+        },
+        "#learnjapanese": {
+          "n": 4,
+          "qualified": 0
+        },
+        "#origami": {
+          "n": 4,
+          "qualified": 0
+        },
+        "#aitools": {
+          "n": 3,
+          "qualified": 0
+        },
+        "#apartmenthunting": {
+          "n": 3,
+          "qualified": 0
+        },
+        "#diy": {
+          "n": 3,
+          "qualified": 0
+        },
+        "#interviewtips": {
+          "n": 3,
+          "qualified": 0
+        }
+      },
+      "highlights": [
+        {
+          "niche": "#skincare",
+          "author": "that.gurllisa_",
+          "followers": 1991,
+          "likes": 18500,
+          "published_approx": "2026-09-12",
+          "in_approx_30d": false,
+          "url": "https://www.instagram.com/p/Dc-ek_wSQrX/"
+        },
+        {
+          "niche": "#dogtraining",
+          "author": "malwhodoesigp",
+          "followers": 2130,
+          "likes": 104600,
+          "published_approx": "2026-09-16",
+          "in_approx_30d": true,
+          "url": "https://www.instagram.com/p/DdW30ySJgeV/"
+        },
+        {
+          "niche": "#sidehustle",
+          "author": "gwen3edit",
+          "followers": 5744,
+          "likes": 21300,
+          "published_approx": "2026-09-23",
+          "in_approx_30d": true,
+          "url": "https://www.instagram.com/p/DdohszoxQqh/"
+        }
+      ],
+      "strength": "D/C",
+      "role": "counter-evidence against IG cold-start as primary; not a blue-ocean claim",
+      "caveat": "No view counts; do not compare abs likes to YT/TikTok; search-head bias"
+    }
+  },
+  "handoff": "HERMES_HANDOFF.md"
+}
