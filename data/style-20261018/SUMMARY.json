@@ -1,0 +1,62 @@
+{
+ "date": "2026-10-19",
+ "collected": "2026-10-18",
+ "recommendations": [
+  {
+   "rank": 1,
+   "combo": "C02 蓝图/3D机构动图×单个机械原理",
+   "confidence": "中",
+   "key": [
+    "YT kekemorning 蒸汽机 8,541,561播 https://youtu.be/g85IMgI82IQ",
+    "抖音 机械原理动画分享 3,674粉 17.7万互动 https://www.douyin.com/video/7622115054129200070 (同号中位7.5)"
+   ]
+  },
+  {
+   "rank": 2,
+   "combo": "C15 恭喜你发明了X×发明原理",
+   "confidence": "中",
+   "key": [
+    "小红书 解码视界 10.97万互动 https://www.xiaohongshu.com/explore/69e2054f000000001a032566",
+    "小红书 原理搞不懂 3,406粉 8,041互动 https://www.xiaohongshu.com/explore/6a9a849c000000001203404e"
+   ]
+  },
+  {
+   "rank": 3,
+   "combo": "C01 产品拆解/3D剖面×日常物品",
+   "confidence": "中",
+   "key": [
+    "B站 科普研究所- 中位10,784",
+    "IG sscientific.girl 中位33,200"
+   ]
+  },
+  {
+   "rank": 4,
+   "combo": "C08 数据实物化×尺度对比",
+   "confidence": "低-中",
+   "key": [
+    "YT ORIGINAL DATA 9,240订阅 2,646,274播 https://youtu.be/78Zr92ZlvY4"
+   ]
+  }
+ ],
+ "insufficient": [
+  "C05",
+  "C11",
+  "C16"
+ ],
+ "samples": {
+  "youtube": 2986,
+  "bilibili": 20,
+  "x": 69,
+  "douyin": 102,
+  "xiaohongshu": 85,
+  "tiktok": 84,
+  "instagram": 74
+ },
+ "gaps": [
+  "B站风控",
+  "快手/视频号未采",
+  "未逐条观看视频",
+  "YT Search配额耗尽改公开页",
+  "engineeringexplained3为搬运号"
+ ]
+}
