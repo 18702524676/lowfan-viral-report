@@ -1,0 +1,551 @@
+{
+ "date": "2026-11-04",
+ "timezone": "Asia/Shanghai",
+ "rows": 1852,
+ "per_platform": {
+  "x": 165,
+  "tiktok": 44,
+  "bilibili": 383,
+  "xiaohongshu": 224,
+  "instagram": 24,
+  "douyin": 118,
+  "youtube": 894
+ },
+ "qualified_per_platform": {
+  "youtube": 90,
+  "bilibili": 35,
+  "x": 4,
+  "douyin": 30,
+  "xiaohongshu": 37,
+  "tiktok": 9,
+  "instagram": 1
+ },
+ "ranking": [
+  {
+   "rank": 1,
+   "niche": "历史冷知识",
+   "tier": "A",
+   "qualified": 47,
+   "channels": 45,
+   "platforms": [
+    "bilibili",
+    "douyin",
+    "xiaohongshu",
+    "youtube"
+   ],
+   "top_author_share": 0.04,
+   "ai_score": 2.5,
+   "verdict": "蓝海",
+   "vs_prev": "新晋",
+   "key_cases": [
+    {
+     "platform": "bilibili",
+     "title": "古代最残忍的8大刑罚，犯人宁死也不愿受刑，看得人头皮发麻",
+     "url": "https://www.bilibili.com/video/BV1Hg411Y79v",
+     "author": "枕边历史",
+     "followers": 64.0,
+     "views": 4921146.0,
+     "likes": 4542.0,
+     "mult": 76892.9,
+     "basis": "播放/粉"
+    },
+    {
+     "platform": "youtube",
+     "title": "The Test Nobody Wanted in Hungary",
+     "url": "https://www.youtube.com/watch?v=W49PP2SB5O8",
+     "author": "Dani Clips",
+     "followers": 2160.0,
+     "views": 4848962.0,
+     "likes": 124473.0,
+     "mult": 2244.9,
+     "basis": "播放/粉"
+    },
+    {
+     "platform": "youtube",
+     "title": "Why Did Soldiers Stand in Straight Lines? #shorts  #4k #history #extra",
+     "url": "https://www.youtube.com/watch?v=d_BHCkmriFE",
+     "author": "Stick Theory",
+     "followers": 15.0,
+     "views": 21404.0,
+     "likes": 338.0,
+     "mult": 1426.9,
+     "basis": "播放/粉"
+    }
+   ]
+  },
+  {
+   "rank": 2,
+   "niche": "AI工具教程",
+   "tier": "A",
+   "qualified": 29,
+   "channels": 27,
+   "platforms": [
+    "bilibili",
+    "douyin",
+    "tiktok",
+    "xiaohongshu",
+    "youtube"
+   ],
+   "top_author_share": 0.07,
+   "ai_score": 2,
+   "verdict": "蓝海",
+   "vs_prev": "维持（10-16 AI tools EN 蓝海）",
+   "key_cases": [
+    {
+     "platform": "bilibili",
+     "title": "【1天学会WorkBuddy】彻底解放双手！全网最详解WorkBuddy从安装到实战，手把手教你实现办公自动化，AI 办公天花板！",
+     "url": "https://www.bilibili.com/video/BV1boqBBEENs",
+     "author": "好课宣传委",
+     "followers": 4141.0,
+     "views": 5338562.0,
+     "likes": 300252.0,
+     "mult": 1289.2,
+     "basis": "播放/粉"
+    },
+    {
+     "platform": "bilibili",
+     "title": "【WorkBuddy零基础入门教学】全网最全保姆级教程来啦！启动 WorkBuddy，零基础搭建自动干活智能体！“脏活累活”全交给它！",
+     "url": "https://www.bilibili.com/video/BV1nqVH6eEvT",
+     "author": "WorkBuddy自动化办公",
+     "followers": 3156.0,
+     "views": 2959712.0,
+     "likes": 109675.0,
+     "mult": 937.8,
+     "basis": "播放/粉"
+    },
+    {
+     "platform": "bilibili",
+     "title": "零基础手搓一部AI漫剧一个月收获近4w！附教程！全流程操作演示！让新手也能学会AI漫剧制作技巧！更多AI漫剧工具提示词+变现方法及全套教程都",
+     "url": "https://www.bilibili.com/video/BV19Bb5z9EnT",
+     "author": "AI视频制作全流程MJ",
+     "followers": 3160.0,
+     "views": 2359272.0,
+     "likes": 1283800.0,
+     "mult": 746.6,
+     "basis": "播放/粉"
+    }
+   ]
+  },
+  {
+   "rank": 3,
+   "niche": "心理/名言",
+   "tier": "B",
+   "qualified": 30,
+   "channels": 23,
+   "platforms": [
+    "bilibili",
+    "douyin",
+    "tiktok",
+    "youtube"
+   ],
+   "top_author_share": 0.1,
+   "ai_score": 3,
+   "verdict": "蓝海",
+   "vs_prev": "new",
+   "key_cases": [
+    {
+     "platform": "youtube",
+     "title": "If a person makes direct eye contact with you...#psychology #psycholog",
+     "url": "https://www.youtube.com/watch?v=qNFbHzHzETY",
+     "author": "Facts Lab",
+     "followers": 6720.0,
+     "views": 3598595.0,
+     "likes": 39591.0,
+     "mult": 535.5,
+     "basis": "播放/粉"
+    },
+    {
+     "platform": "bilibili",
+     "title": "有哪些惊世骇俗的名人名言？",
+     "url": "https://www.bilibili.com/video/BV1Kg4y1s7HV",
+     "author": "liliaaaNancy_",
+     "followers": 315.0,
+     "views": 70732.0,
+     "likes": 6509.0,
+     "mult": 224.5,
+     "basis": "播放/粉"
+    },
+    {
+     "platform": "tiktok",
+     "title": "Why One “Okay” Text Can Make You Think Something Is Wrong",
+     "url": "https://www.tiktok.com/@humanpatterns8/video/7704081660827929878",
+     "author": "Human Patterns",
+     "followers": null,
+     "views": null,
+     "likes": 17100.0,
+     "mult": null,
+     "basis": "高赞≥1000(无粉数,代理)"
+    }
+   ]
+  },
+  {
+   "rank": 4,
+   "niche": "古人科技/发明史",
+   "tier": "B",
+   "qualified": 18,
+   "channels": 16,
+   "platforms": [
+    "bilibili",
+    "douyin",
+    "tiktok",
+    "xiaohongshu",
+    "youtube"
+   ],
+   "top_author_share": 0.17,
+   "ai_score": 2.5,
+   "verdict": "蓝海",
+   "vs_prev": "new",
+   "key_cases": [
+    {
+     "platform": "youtube",
+     "title": "How an Ancient Vending Machine Knew You Paid",
+     "url": "https://www.youtube.com/watch?v=s0KBgH100lI",
+     "author": "Quirk & Cog",
+     "followers": 8.0,
+     "views": 5755.0,
+     "likes": 149.0,
+     "mult": 719.4,
+     "basis": "播放/粉"
+    },
+    {
+     "platform": "youtube",
+     "title": "How Did Ancient Indians Cool Their Homes Without AC? 🤯 #facts",
+     "url": "https://www.youtube.com/watch?v=-NnBsU1nkV4",
+     "author": "Revik 3d",
+     "followers": 57.0,
+     "views": 19619.0,
+     "likes": null,
+     "mult": 344.2,
+     "basis": "播放/粉"
+    },
+    {
+     "platform": "tiktok",
+     "title": "9 Mills Powered by Just ONE Water Wheel! Ancient Engineering Was Incre",
+     "url": "https://www.tiktok.com/@usman62733/video/7702558211034860822",
+     "author": "Usman",
+     "followers": null,
+     "views": null,
+     "likes": 28100.0,
+     "mult": null,
+     "basis": "高赞≥1000(无粉数,代理)"
+    }
+   ]
+  },
+  {
+   "rank": 5,
+   "niche": "儿童知识科普",
+   "tier": "B",
+   "qualified": 18,
+   "channels": 15,
+   "platforms": [
+    "bilibili",
+    "douyin",
+    "xiaohongshu"
+   ],
+   "top_author_share": 0.17,
+   "ai_score": 3,
+   "verdict": "蓝海",
+   "vs_prev": "new",
+   "key_cases": [
+    {
+     "platform": "bilibili",
+     "title": "恐龙启蒙故事：小恐龙在玩捉迷藏的游戏，让我们找找吧！",
+     "url": "https://www.bilibili.com/video/BV1DLxYewE7S",
+     "author": "猫咪玩具世界",
+     "followers": 828.0,
+     "views": 59831.0,
+     "likes": 19.0,
+     "mult": 72.3,
+     "basis": "播放/粉"
+    },
+    {
+     "platform": "douyin",
+     "title": "霸王龙头骨清修 伯克自然历史与文化博物馆",
+     "url": "https://www.douyin.com/video/7702343522804216233",
+     "author": "生命的旅程",
+     "followers": null,
+     "views": null,
+     "likes": 4314.0,
+     "mult": null,
+     "basis": "高赞≥1000(无粉数,代理)"
+    },
+    {
+     "platform": "douyin",
+     "title": "被骗了！霸王龙竟然不是侏罗纪的？",
+     "url": "https://www.douyin.com/video/7702328163602337074",
+     "author": "好奇孙小弟",
+     "followers": null,
+     "views": null,
+     "likes": 2925.0,
+     "mult": null,
+     "basis": "高赞≥1000(无粉数,代理)"
+    }
+   ]
+  },
+  {
+   "rank": 6,
+   "niche": "悬疑/奇闻故事",
+   "tier": "B",
+   "qualified": 17,
+   "channels": 15,
+   "platforms": [
+    "douyin",
+    "xiaohongshu",
+    "youtube"
+   ],
+   "top_author_share": 0.12,
+   "ai_score": 3,
+   "verdict": "蓝海",
+   "vs_prev": "new",
+   "key_cases": [
+    {
+     "platform": "youtube",
+     "title": "Scariest Cartoon Characters (PT.1) | Nightmare Fuel |  #scary #creepy ",
+     "url": "https://www.youtube.com/watch?v=dUEJEjXx18A",
+     "author": "Nightmare Fuel",
+     "followers": 5370.0,
+     "views": 1946144.0,
+     "likes": 12776.0,
+     "mult": 362.4,
+     "basis": "播放/粉"
+    },
+    {
+     "platform": "douyin",
+     "title": "警告：本故事有些许惊悚情节请谨慎观看！",
+     "url": "https://www.douyin.com/video/7703219953030442726",
+     "author": "宝崽追剧",
+     "followers": null,
+     "views": null,
+     "likes": 4798.0,
+     "mult": null,
+     "basis": "高赞≥1000(无粉数,代理)"
+    },
+    {
+     "platform": "youtube",
+     "title": "3 scariest facts about dreams part 3(TikTok compilation) #tiktok #shor",
+     "url": "https://www.youtube.com/watch?v=U11GzBs7B3U",
+     "author": "Kidsam01",
+     "followers": 7920.0,
+     "views": 315691.0,
+     "likes": null,
+     "mult": 39.9,
+     "basis": "播放/粉"
+    }
+   ]
+  },
+  {
+   "rank": 7,
+   "niche": "AI儿童英语绘本/睡前故事",
+   "tier": "B",
+   "qualified": 15,
+   "channels": 15,
+   "platforms": [
+    "bilibili",
+    "tiktok",
+    "x",
+    "xiaohongshu",
+    "youtube"
+   ],
+   "top_author_share": 0.07,
+   "ai_score": 3,
+   "verdict": "蓝海",
+   "vs_prev": "new",
+   "key_cases": [
+    {
+     "platform": "youtube",
+     "title": "Aadhi Raat Ko, Darwaza Kis Ne Khola | Islamic Moral Story For Kids | 3",
+     "url": "https://www.youtube.com/watch?v=OIa9s_iTpMo",
+     "author": "Abdul Hadi Abdul Bari",
+     "followers": 2410.0,
+     "views": 212772.0,
+     "likes": 1149.0,
+     "mult": 88.3,
+     "basis": "播放/粉"
+    },
+    {
+     "platform": "youtube",
+     "title": "Baingan Destroyed Aloo’s Farm! 😱🐺 | Wolves Attack | AI 3D Cartoon Stor",
+     "url": "https://www.youtube.com/watch?v=gGw-V7UgWxs",
+     "author": "lumizoo kids ",
+     "followers": 4730.0,
+     "views": 199745.0,
+     "likes": 713.0,
+     "mult": 42.2,
+     "basis": "播放/粉"
+    },
+    {
+     "platform": "x",
+     "title": "Haven't had a bedtime story in 4 days https://t.co/UZSTOaQnTX",
+     "url": "https://x.com/Dreamybyers/status/2117019494178816044",
+     "author": "Dreamybyers",
+     "followers": 3346.0,
+     "views": 89232.0,
+     "likes": 15105.0,
+     "mult": 26.7,
+     "basis": "播放/粉"
+    }
+   ]
+  },
+  {
+   "rank": 8,
+   "niche": "机械原理/工程动画",
+   "tier": "B",
+   "qualified": 13,
+   "channels": 12,
+   "platforms": [
+    "bilibili",
+    "instagram",
+    "tiktok",
+    "x",
+    "xiaohongshu",
+    "youtube"
+   ],
+   "top_author_share": 0.15,
+   "ai_score": 2.5,
+   "verdict": "蓝海",
+   "vs_prev": "新晋",
+   "key_cases": [
+    {
+     "platform": "youtube",
+     "title": "How a Sewing Machine Works via animation",
+     "url": "https://www.youtube.com/watch?v=zqRvljnNLFk",
+     "author": "Sewers Delight",
+     "followers": 638.0,
+     "views": 399588.0,
+     "likes": 2564.0,
+     "mult": 626.3,
+     "basis": "播放/粉"
+    },
+    {
+     "platform": "youtube",
+     "title": "इंजन कैसे काम करता है? 😱 पूरा मैकेनिज़्म देखो! ⚙️🔥 #Engine #HowItWorks",
+     "url": "https://www.youtube.com/watch?v=npAXP6sHP7M",
+     "author": "darr ki dastak-ab hogi raat khaufnak ",
+     "followers": 65.0,
+     "views": 21720.0,
+     "likes": null,
+     "mult": 334.2,
+     "basis": "播放/粉"
+    },
+    {
+     "platform": "bilibili",
+     "title": "改变速度的齿轮系统",
+     "url": "https://www.bilibili.com/video/BV1Qd4y1d7Ce",
+     "author": "机械动画",
+     "followers": 8447.0,
+     "views": 2370136.0,
+     "likes": 11123.0,
+     "mult": 280.6,
+     "basis": "播放/粉"
+    }
+   ]
+  },
+  {
+   "rank": 9,
+   "niche": "外语微课",
+   "tier": "B",
+   "qualified": 12,
+   "channels": 11,
+   "platforms": [
+    "bilibili",
+    "youtube"
+   ],
+   "top_author_share": 0.17,
+   "ai_score": 2.5,
+   "verdict": "蓝海",
+   "vs_prev": "降级（10-16 language learning B 级 → 本期 C/B 边缘）",
+   "key_cases": [
+    {
+     "platform": "youtube",
+     "title": "Micro teaching lesson plan-English. Explaining Skill",
+     "url": "https://www.youtube.com/watch?v=eMZlYHpEFrk",
+     "author": "Success will speak",
+     "followers": 473.0,
+     "views": 184440.0,
+     "likes": 562.0,
+     "mult": 389.9,
+     "basis": "播放/粉"
+    },
+    {
+     "platform": "bilibili",
+     "title": "微课视频（接触新时态：一般过去时）",
+     "url": "https://www.bilibili.com/video/BV1ke4y1R7pu",
+     "author": "xiao-芳",
+     "followers": 28.0,
+     "views": 7930.0,
+     "likes": 85.0,
+     "mult": 283.2,
+     "basis": "播放/粉"
+    },
+    {
+     "platform": "bilibili",
+     "title": "英语微课→_→24节气",
+     "url": "https://www.bilibili.com/video/BV1rG411H7Xz",
+     "author": "大大大大猪佩奇",
+     "followers": 62.0,
+     "views": 11032.0,
+     "likes": 133.0,
+     "mult": 177.9,
+     "basis": "播放/粉"
+    }
+   ]
+  },
+  {
+   "rank": 10,
+   "niche": "白垩纪/植物穿越",
+   "tier": "C",
+   "qualified": 7,
+   "channels": 5,
+   "platforms": [
+    "bilibili",
+    "douyin",
+    "xiaohongshu"
+   ],
+   "top_author_share": 0.29,
+   "ai_score": 3,
+   "verdict": "观察",
+   "vs_prev": "new",
+   "key_cases": [
+    {
+     "platform": "bilibili",
+     "title": "假如把你女朋友吃剩的鞭炮笋扔进白垩纪浅海，它能活下来吗？",
+     "url": "https://www.bilibili.com/video/BV1D8ht65EpC",
+     "author": "荒古异客",
+     "followers": 1495.0,
+     "views": 92911.0,
+     "likes": 539.0,
+     "mult": 62.1,
+     "basis": "播放/粉"
+    },
+    {
+     "platform": "bilibili",
+     "title": "假如把一朵棉花扔回白垩纪，恐龙真的能穿上棉袄熬过极寒吗？",
+     "url": "https://www.bilibili.com/video/BV1ZNeM66Eez",
+     "author": "史前穿越计划",
+     "followers": 259.0,
+     "views": 11277.0,
+     "likes": 258.0,
+     "mult": 43.5,
+     "basis": "播放/粉"
+    },
+    {
+     "platform": "bilibili",
+     "title": "一颗切开的百香果，怎么铺满白垩纪林缘？",
+     "url": "https://www.bilibili.com/video/BV1Wrbs6pEfv",
+     "author": "史前穿越计划",
+     "followers": 259.0,
+     "views": 9980.0,
+     "likes": 61.0,
+     "mult": 38.5,
+     "basis": "播放/粉"
+    }
+   ]
+  }
+ ],
+ "gaps": [
+  "tiktok partial 44 rows, no views/followers (captcha)",
+  "instagram partial 24 rows, 3 niches (rate limited)",
+  "kuaishou not collected",
+  "weixin channels not collected"
+ ]
+}
